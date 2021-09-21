@@ -1,37 +1,34 @@
 <template>
-  <Banner />
   <div class="main-container">
-    <h1 class="make-burger">Make Your Burger</h1>
-    <BurgerForm />
+    <h1 class="manage-orders">Manage Orders</h1>
+    <Dashboard />
   </div>
 </template>
 
 <script>
-import Banner from "../components/Banner.vue";
-import BurgerForm from "../components/BurgerForm.vue";
+import Dashboard from "../components/Dashboard.vue";
 
 export default {
-  name: "Home",
+  name: "Orders",
   components: {
-    Banner,
-    BurgerForm,
+    Dashboard,
   },
 };
 </script>
 
 <style scoped>
-.make-burger {
+.manage-orders {
   transition-property: color;
   transition-duration: 1s;
   animation: makeburger 2s;
   position: relative;
 }
 
-.make-burger:hover{
+.manage-orders:hover{
   color: #FCBA03;
   cursor: pointer;
 }
-#make-burger {
+#manage-orders {
   animation-timing-function: ease;
 }
 
