@@ -1,4 +1,4 @@
-# Vuejs-FirstProject
+# Vuejs-Make Your Burger
 Meu primeiro projeto com Vuejs (versão mais recente - 3x).
 
 # Principais Recursos Utilizados
